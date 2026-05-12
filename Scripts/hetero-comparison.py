@@ -28,7 +28,7 @@ def run_multifold(sequences):
 
 
 def run_soupfold(distinct_seqs, m_total):    
-    cmd = ["./strand_soup.exe", "--hetero", str(m_total)] + distinct_seqs
+    cmd = ["./strand_soup.exe", "--heterogeneous", str(m_total)] + distinct_seqs
     start_time = time.time()
     
     try:
